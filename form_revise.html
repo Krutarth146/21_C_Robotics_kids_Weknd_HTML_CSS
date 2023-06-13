@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+</head>
+<body>
+    <h1>Registration Form</h1><br><br>
+    <form action="index.html" method="post" enctype="multipart/form-data" autocomplete="on" id="form1">
+
+        <div>
+            <label for="ansh">First Name: </label>
+
+            <input type="text" placeholder="Enter Full Name" name="fname" id="ansh" required>
+       </div>
+
+       <br><br>
+
+
+       <div>
+
+        <label for="lname">Last Name: </label>
+        <input type="text" placeholder="Enter Surname" name="surname" id="lname">
+       </div>
+<br><br>
+       <div>
+
+        <label for="email">Email: </label>
+        <input type="email" placeholder="Enter Email" name="email" id="email">
+       </div><br><br>
+
+       <div>
+
+        <label for="pass">Password: </label>
+        <input type="password" placeholder="Enter Password" name="password" id="pass">
+       </div><br><br>
+
+       <div>
+        <input type="file" ><br><br>
+       </div>
+
+       <div>
+            <label for="con">Choose Country: </label>
+
+            <select name="conutry" id="con">
+                <optgroup label="Countries">
+                    <option value="UK">United Kingdom</option>
+                    <option value="USA">USA</option>
+                    <option value="IND" selected>India</option>
+                    <option value="SHR" disabled>Shrilanka</option>
+                </optgroup>
+
+                <optgroup label="Cities">
+                    <option value="AHM">AHMedabad</option>
+                    <option value="AHM">AHMedabad</option>
+                    <option value="AHM">AHMedabad</option>
+                    <option value="AHM">AHMedabad</option>
+                </optgroup>
+            </select>
+       </div><br><br>
+
+
+       <input type="submit" value="Send Data">
+
+       <input type="reset" value="Clear Form">
+
+
+
+
+    </form>
+
+    <!-- <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Consequatur, voluptate <span style="color: magenta;">distinctio ipsa</span>  nam ratione eius quod? <div style="background-color: blue;">Excepturi ipsa </div> veritatis, nisi officiis tenetur, velit fugit qui quo ex tempora odio iure earum sequi ipsum modi libero odit sed laudantium dolore blanditiis.</p> -->
+</body>
+</html>
