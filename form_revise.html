@@ -9,6 +9,9 @@
     <h1>Registration Form</h1><br><br>
     <form action="index.html" method="post" enctype="multipart/form-data" autocomplete="on" id="form1">
 
+        <fieldset>
+            <legend align="center">Personal Info.</legend>
+            <br><br>
         <div>
             <label for="ansh">First Name: </label>
 
@@ -35,7 +38,34 @@
         <label for="pass">Password: </label>
         <input type="password" placeholder="Enter Password" name="password" id="pass">
        </div><br><br>
+    </fieldset>
 
+       <div>
+            <label>Hobby: </label>
+
+            <input type="checkbox" id="dance" name="hobby" value="dance">
+            <label for="dance">Dancing</label>
+
+            <input type="checkbox" id="read" name="hobby" value="laptop">
+            <label for="read"><img src="/workplace.jpg" alt="" width="8%"></label>
+
+            <input type="checkbox" id="paint" name="hobby" value="car">
+            <label for="paint"><img src="/car.gif" alt="" width="10%"></label>
+
+       </div><br><br>
+
+       <div>
+            <label>Gender: </label>
+
+            <input type="radio" id="male" name="gender" value="M" >
+            <label for="male">Male</label>
+
+            <input type="radio" id="female" name="gender" value="F">
+            <label for="female">Female</label>
+
+       </div><br><br>
+
+       
        <div>
         <input type="file" ><br><br>
        </div>
@@ -59,6 +89,26 @@
                 </optgroup>
             </select>
        </div><br><br>
+
+       <div>
+        <label for="comment">Enter any Feedback: </label>
+        <textarea name="comment" id="comment" cols="17" rows="4"></textarea>
+   </div><br><br>
+
+    <div>
+        <input type="button" value="Click Swara">
+    </div><br><br>
+
+    <div>
+        <input type="date">
+        <input type="datetime">
+        <input type="datetime-local">
+        <input type="color">
+        <input type="week">
+    </div>
+
+
+
 
 
        <input type="submit" value="Send Data">
